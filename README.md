@@ -16,7 +16,7 @@ MyDigiTwin is a scientific initiative to develop a platform in which individuals
 
 ### Data harmonization
 
-The MedMij FHIR's profile has been selected as the standard for harmonizing the aforementioned health providers and self-reported data. In other words, the MedMij/FHIR standard will be the mean for unifying the structure, formats, and dimensions across the aforementioned datasets. Given this and the privacy-preserving principles that guide MyDigiTwin's system architecture, there are two key requirements for this harmonization process: (1) the reference datasets/biobanks must not leave their host, hence their transformations (to the FHIR standard) need to be performed within their corresponding cluster environment, and (2) any computations on the transformed data must also be performed within the cluster environment.
+The MedMij/FHIR standard was chosen as the mean for unifying the structure, formats, and dimensions across the aforementioned big-data reference datasets. Given this and the privacy-preserving principles that guide MyDigiTwin's system architecture, there are two key requirements for this harmonization process: (1) the reference datasets/biobanks must not leave their host, hence their transformations (to the FHIR standard) need to be performed within their corresponding cluster environment, and (2) any computations on the transformed data must also be performed within the cluster environment.
 
 Given these requirements, the following tools are currently under development:
 
