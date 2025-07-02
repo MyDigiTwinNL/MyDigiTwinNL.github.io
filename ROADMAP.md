@@ -6,7 +6,7 @@
 
 ### Data Harmonization Pipeline
 - [x] Designed and built a **FHIR-based harmonization framework** aligned with ZIB/MedMij standards:
-  - [X]  [`CDF2MedMij-Mapping-tool`](https://github.com/MyDigiTwinNL/CDF2Medmij-Mapping-tool): a tool that generate FHIR resources based on the CDF format (a generic format for cohort studies) and pairing rules defined with the type-safe Typescript language.
+  - [X]  [`CDF2MedMij-Mapping-tool`](https://github.com/MyDigiTwinNL/CDF2Medmij-Mapping-tool): a tool that generate FHIR resources based on cohort studies on the CDF format (an ad-hoc format for cohort study data defined for the project) and pairing rules defined with Typescripe.
   - [X] [`LifelinesCSV2CDF`](https://github.com/MyDigiTwinNL/LifelinesCSV2CDF): scripts for transforming Lifelines data into the CDS format required by the pipeline.
   - [X]  [`SQLonFHIR`](https://github.com/MyDigiTwinNL/SQLonFHIRProjections): tool to transform FHIR resources into a SQL database based on a set of FHIRPath or JSONPath expressions (to validate the generated FHIR resources within a cluster environment, and to 'flatten' them within a federated learning infrastructure).
   - [X] Established a **test-driven, Git-based workflow** for creating and validating mapping (pairing) rules.
