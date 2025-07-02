@@ -20,6 +20,7 @@
 - [X] Validated consistency between raw and harmonized data via SQL and script-based analyses.
 - [X] Demonstrated performance improvement with federated learning (C-statistic increased from 0.764 → 0.788).
 - [X] Scientific publication: [[2](https://arxiv.org/pdf/2501.12193)]
+- [X] Knowledge transference (1st round): vantage6 workshop
 
 
 
@@ -35,8 +36,8 @@
   - [ ] Refining the generalizability of the data harmonization framework.
 - [ ] Enabling pre-processing steps like the ones defined for the [FedAvg algorithm](https://github.com/MyDigiTwinNL/FedAvg_vantage6) to be executed within the federated infrastructure.
   - [ ] Upgrading the project's research infrastructure to version 5 of vanatage6 (with sessions support) once it is available.
-
 - [ ] Setting up an additional node for the Rotterdam Study.
+- [ ] Knowledge transference (2nd round): v6-compliant federated learning algorithm design + pre-processing
 
 ### From proof-of-concept to medically-sound aplication
 
